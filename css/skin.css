@@ -1,3 +1,9 @@
+footer {
+	background-color: #111111;
+	color: #959595;
+	padding: 1em 0 0.5em 0;
+	margin-top: 2em;
+}
 .responsive-map {
     position: relative;
     padding-bottom: 56.25%;
@@ -18,4 +24,6 @@
 
 .phpday {
 	max-height: 702px;
+	text-align: center;
+	padding: 1em 0 0 0;
 }

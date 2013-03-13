@@ -13,16 +13,29 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="navbar-inner">
             <div class="container">
+                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
                 <a href="#" class="brand">PHP Day Puebla 2013</a>
+                <div class="nav-collapse collapse">
+                    <ul class="nav">
+                        <li class="active">
+                            <a href="/conferencistas.html">Conferencistas</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 
+    <div class="hero-unit phpday">
+        <img src="/img/phpday.png" alt="PHP Day Puebla 2013" class="img-polaroid">
+    </div>
+
     <div class="container">
-        <div class="phpday">
-            <img src="/img/phpday.png">
-        </div>
-        
+    
         <div class="page-header">
             <h2>PHP Day Puebla 2013</h2>
         </div>
@@ -66,20 +79,14 @@
                     <tr>
                         <td>Symfony2</td>
                         <td>
-                            <a href="http://www.linkedin.com/in/jmolivas">Jesús Manuel Olivas</a> <br>
+                            <a href="/conferencistas.html#jmolivas">Jesús Manuel Olivas</a> <br>
                             <a href="http://www.drupodcast.com">DrupodCast</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Drupal</td>
-                        <td>
-                            David Flores <br>
                         </td>
                     </tr>
                     <tr>
                         <td>¿Qué es HTML5 y por que debería preocuparme si aún no lo utilizo?</td>
                         <td>
-                            Luis Antonio Gómez <br>
+                            <a href="/conferencistas.html#jimmylagp">Luis Antonio Gómez</a> <br>
                             <a href="http://ninjacode.tv">Ninja Code TV</a> <br>
                             <a href="http://html5facil.com">HTML5 Fácil</a> 
                         </td>
@@ -104,7 +111,7 @@
                             <a href="http://www.campus-party.com.mx/2013/cpmx4.html">CPMX4</a>)
                         </td>
                         <td>
-                            Luis Antonio Gómez <br>
+                            <a href="/conferencistas.html#jimmylagp">Luis Antonio Gómez</a> <br>
                             <a href="http://ninjacode.tv">Ninja Code TV</a> <br>
                             <a href="http://html5facil.com">HTML5 Fácil</a> 
                         </td>
@@ -118,7 +125,7 @@
                     <tr>
                         <td>Behavior Driven Development con Behat y Mink</td>
                         <td>
-                            <a href="http://jmolivas.com">Jesús Manuel Olivas</a> <br>
+                            <a href="/conferencistas.html#jmolivas">Jesús Manuel Olivas</a> <br>
                             <a href="http://www.drupodcast.com">DrupodCast</a>
                         </td>
                     </tr>
@@ -127,12 +134,16 @@
             <div class="span5">
                 <div class="well">
                     <h4>Sede</h4>
-                    Instituto Tecnológico de Puebla <br>
+                    
+                    <address>
+                    <strong>Instituto Tecnológico de Puebla</strong> <br>
                     Avenida Tecnológico #420 <br>
                     Colonia Maravillas <br>
-                    Puebla, Pue. C.P. 72220 <br>
+                    Puebla, Pue. C.P. 72220 
+                    </address>
+
                     <div class="responsive-map">
-	                    <iframe 
+	                    <!-- iframe 
 		                    width="425" 
 		                    height="350" 
 		                    frameborder="0" 
@@ -140,20 +151,18 @@
 		                    marginheight="0" 
 		                    marginwidth="0" 
 		                    src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=es-419&amp;geocode=&amp;q=instituto+tecnol%C3%B3gico+de+Puebla&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=38.092988,79.013672&amp;ie=UTF8&amp;hq=instituto+tecnol%C3%B3gico+de+Puebla&amp;ll=19.068563,-98.168684&amp;spn=0.011114,0.01929&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=1773473576621450800&amp;output=embed">
-		                </iframe>
+		                </iframe -->
 	                </div>
                 </div>
             </div>
         </div>
     </div>
     
-    <div id="footer">
+    <footer class="footer">
       <div class="container">
-        <p class="muted credit">
-            <a href="http://www.comunidadphppuebla.com">Comunidad PHP Puebla</a>
-        </p>
+        <p><a href="http://www.comunidadphppuebla.com">Comunidad PHP Puebla</a></p>
       </div>
-    </div>
+    </footer>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
