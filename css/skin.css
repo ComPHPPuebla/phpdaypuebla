@@ -27,3 +27,16 @@ footer {
 	text-align: center;
 	padding: 1em 0 0 0;
 }
+
+.info p {
+	margin: 0 0 10px !important;
+}
+
+.info h4 {
+    margin: 10px 0 !important;
+}
+
+.speaker-info-header {
+	text-align: center;
+	margin-bottom: 3em !important;
+}
