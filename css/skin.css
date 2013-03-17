@@ -1,9 +1,14 @@
+body {
+	background-image: url(/img/background.png);
+    background-color: #464545;
+}
+
 footer {
 	background-color: #111111;
 	color: #959595;
-	padding: 1em 0 0.5em 0;
-	margin-top: 2em;
+	padding: 1.5em 0 0.5em 0;
 }
+
 .responsive-map {
     position: relative;
     padding-bottom: 56.25%;
@@ -22,10 +27,41 @@ footer {
     height: 100%;
 }
 
-.phpday {
+.phpday-branding {
 	max-height: 702px;
-	text-align: center;
-	padding: 1em 0 0 0;
+	min-height: 335px;
+	background-image: url(/img/header-background.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #111;
+	margin-bottom: 0;
+}
+
+.phpday-logo {
+    text-align: left;
+    margin: 2.5em 0 0 2.5em;
+}
+
+.phpday-info {
+    background-color: #464545;
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+.phpday-info-header {
+    font-family:'Londrina Shadow',sans-serif;
+    font-size: 2em;
+    line-height: 105%;
+}
+
+.phpday-info-date {
+    font-size: 2em;
+    line-height: 105%;
+}
+
+.phpday-info-intro {
+    padding-top: 1.2em;
+    font-size: 1.2em;  
 }
 
 .info p {
