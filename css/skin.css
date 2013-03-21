@@ -73,6 +73,14 @@ footer {
     font-size: 1.2em;  
 }
 
+.phpday-evet-brite {
+	padding-top: 1.8em;
+}
+
+.comunidades {
+	text-align: center;
+}
+
 .info p {
 	margin: 0 0 10px !important;
 }
