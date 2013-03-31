@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    {% include "sections/head.html.twig" %}
+</head>
+<body>
+    {% include "sections/navigation.html.twig" %}
+
+    {% include "sections/branding.html.twig" %}
+
+    {% block title %}{% endblock %}
+
+    {% block main_title %}{% endblock %}
+
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+
+    {% include "sections/footer.html.twig" %}
+</body>

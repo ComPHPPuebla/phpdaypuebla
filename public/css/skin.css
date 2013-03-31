@@ -68,13 +68,32 @@ footer {
     line-height: 105%;
 }
 
-.phpday-info-intro {
+.phpday-info-intro-main {
     padding-top: 1.2em;
     font-size: 1.2em;  
 }
 
-.phpday-evet-brite {
-	padding-top: 1.8em;
+.phpday-info-intro {
+    padding-top: 1.2em;
+    font-size: 4em;  
+}
+
+#attendees {
+	margin-top: 3em;
+}
+
+.phpday-attendees-count {
+	font-size: 6em;
+	font-weight: bolder;
+	margin-bottom: 0.5em;
+	display: block;
+}
+
+.phpday-attendees-label {
+	font-size: 2.5em;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+    display: block;
 }
 
 .comunidades {

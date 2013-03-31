@@ -1,3 +1,6 @@
 .settings
 .buildpath
 .project
+/config/app.config.php
+/config/eventbrite.config.php
+/vendor

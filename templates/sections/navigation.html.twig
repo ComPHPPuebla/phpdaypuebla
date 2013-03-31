@@ -1,0 +1,23 @@
+{% set navigation = [['conferencistas', 'Conferencistas'], ['sesiones', 'Sesiones'], ['sede', 'Sede'], ['comunidades', 'Comunidades']] %}
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/" class="brand">PHP Day Puebla 2013</a>
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    {% for item in navigation %}
+                    <li{% if item[0] == active %} class="active"{% endif%}>
+                        <a href="{{ urlFor(item[0]) }}">{{item[1]}}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

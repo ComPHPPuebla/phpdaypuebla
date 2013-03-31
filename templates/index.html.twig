@@ -1,0 +1,134 @@
+{% set active = '' %}
+
+{% extends "layouts/default.html.twig" %}
+
+{% set title = 'Bienvenid@s' %}
+
+{% block main_title %}
+    {% include "sections/main-title.html.twig" %}
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="span4 phpday-info-title">
+            <p>
+                <a href="conferencistas.html" title="Conferencistas">
+                    <img src="/img/conferencistas.png" alt="Conferencistas">
+                </a>
+            </p>
+            <p>Conferencistas</p>
+        </div>
+
+        <div class="span4 phpday-info-title">
+            <p>
+                <a href="sesiones.html" title="Sesiones">
+                    <img src="/img/sesiones.png" alt="Sesiones">
+                </a>
+            </p>
+            <p>Sesiones</p>
+        </div>
+
+        <div class="span4 phpday-info-title">
+            <p>
+                <a href="sede.html" title="Sede">
+                    <img src="/img/sede.png" alt="Sede">
+                </a>
+            </p>
+            <p>Sede</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="span8 offset2">
+            <div class="well">
+                <h3>Programa de actividades</h3>
+
+                <table class="table table-striped table-hover">
+                <tr>
+                    <th>Plática/Taller</th>
+                    <th>Instructor/Conferencista</th>
+                </tr>
+                <tr>
+                    <td> <a href="/sesiones.html#git-github">Git y Github</a></td>
+                    <td>
+                        <a href="/conferencistas.html#noe_dgz">Noé Domínguez</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="/sesiones.html#seguridad-php">Seguridad en PHP</a></td>
+                    <td>
+                        <a href="/conferencistas.html#pronuer">Claudio Morales</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="/sesiones.html#symfony">Symfony2</a></td>
+                    <td>
+                        <a href="/conferencistas.html#jmolivas">Jesús Manuel Olivas</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="/sesiones.html#html5-buenas-practicas">¿Qué es HTML5 y por que debería preocuparme si aún no lo utilizo?</a></td>
+                    <td>
+                        <a href="/conferencistas.html#jimmylagp">Luis Antonio Gómez</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="/sesiones.html#composer">Manejo de dependencias con Composer</a></td>
+                    <td>
+                        <a href="/conferencistas.html#montealegreluis">Luis Montealegre</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="/sesiones.html#cms">Debate entre los principales CMS (Joomla, Wordpress, Drupal)</a></td>
+                    <td>
+                        <a href="/conferencistas.html#carlos-olivares">Carlos Olivares</a>,
+                        <a href="/conferencistas.html#moisesvera">Moisés Vera</a>,
+                        <a href="/conferencistas.html#dmouse"> David Flores</a>,
+                        <a href="/conferencistas.html#jmolivas">Jesús Manuel Olivas</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/sesiones.html#html5-hacks">HTML5 Hacks</a> (Conferencia de
+                        <a href="http://www.campus-party.com.mx/2013/cpmx4.html">CPMX4</a>)
+                    </td>
+                    <td>
+                        <a href="/conferencistas.html#jimmylagp">Luis Antonio Gómez</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="/sesiones.html#silex">Silex</a></td>
+                    <td>
+                        <a href="/conferencistas.html#dmouse">David Flores</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="/sesiones.html#bdd">Behavior Driven Development con Behat y Mink</a></td>
+                    <td>
+                        <a href="/conferencistas.html#jmolivas">Jesús Manuel Olivas</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Aprendiendo a Emprender</td>
+                    <td>
+                        <a href="/conferencistas.html#cristopher-garrido">Cristopher Garrido Martell</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="/sesiones.html#codeigniter">Codeigniter</a></td>
+                    <td>
+                        <a href="/conferencistas.html#slayden">José Castrejón Aguilar</a>,
+                        Daniel Torres Hernández <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="/sesiones.html#joomla">Taller de Joomla!</a></td>
+                    <td>
+                        <a href="/conferencistas.html#GretelG">Gretel Gutierrez</a>
+                    </td>
+                </tr>
+            </table>
+            </div>
+        </div>
+    </div>
+{% endblock %}

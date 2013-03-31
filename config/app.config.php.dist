@@ -1,0 +1,5 @@
+<?php
+return array(
+    'view' => $sm->get('twig'),
+    'debug' => false,
+);
