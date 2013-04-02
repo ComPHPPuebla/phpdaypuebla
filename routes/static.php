@@ -14,3 +14,6 @@ $app->get('/sede.html', function() use($app) {
 $app->get('/comunidades.html', function() use($app) {
     $app->render('comunidades.html.twig');
 })->name('comunidades');
+$app->get('/staff.html', function() use($app) {
+    $app->render('staff.html.twig');
+})->name('staff');

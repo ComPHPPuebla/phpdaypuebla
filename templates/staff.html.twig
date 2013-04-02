@@ -1,0 +1,29 @@
+{% set active = 'staff' %}
+
+{% extends "layouts/default.html.twig" %}
+
+{% set title = 'Staff' %}
+
+{% block title %}
+    {% include "sections/title.html.twig" %}
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="span12">
+            <div>
+                <p class="text-center">
+                    <iframe src="https://docs.google.com/a/comunidadphppuebla.com/spreadsheet/embeddedform?formkey=dGxfY09YZzhPS2tOZ0FDUkRtVHI0dEE6MQ"
+                            width="800"
+                            height="1100"
+                            frameborder="0"
+                            scrolling="no"
+                            marginheight="0"
+                            marginwidth="0">
+                            Cargando...
+                    </iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
