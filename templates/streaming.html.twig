@@ -1,0 +1,40 @@
+{% set active = 'streaming' %}
+
+{% extends "layouts/default.html.twig" %}
+
+{% set title = 'Streaming' %}
+
+{% block title %}
+    {% include "sections/title.html.twig" %}
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="span12">
+            <div class="well lead">
+                <p>
+                    Abrimos el registro para el streaming de las conferencias gracias al 
+                    apoyo de los amigos de <a href="http://www.comunidaddephp.org/">Comunidad de PHP</a>, para que puedas acompañarnos 
+                    sin importar si te encuentras en otro estado u otro país, tod@s 
+                    están cordialmente invitad@s.
+                </p>
+                <p class="text-center">
+                    <a href="http://www.eventbrite.es/event/5951355665?ref=ebtn" target="_blank">
+                        <img src="http://www.eventbrite.es/custombutton?eid=5951355665" alt="Streaming - PHP Day Puebla 2013" />
+                    </a>
+                </p>
+                <p class="text-center">
+                    Recuerda seleccionar el ticket que dice <strong>Streaming (Gratuito).</strong>
+                </p>
+                <p>
+                    Recuerda que lo mas importante para nosotros es que conozcas las mejores 
+                    prácticas, frameworks y CMS's mas utilizados en PHP.
+                </p>
+                <p>
+                    <strong>¡Contamos con tu participación!</strong>
+                </p>
+                
+            </div>
+        </div>
+    </div>
+{% endblock %}

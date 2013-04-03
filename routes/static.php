@@ -17,3 +17,6 @@ $app->get('/comunidades.html', function() use($app) {
 $app->get('/staff.html', function() use($app) {
     $app->render('staff.html.twig');
 })->name('staff');
+$app->get('/streaming.html', function() use($app) {
+    $app->render('streaming.html.twig');
+})->name('streaming');
