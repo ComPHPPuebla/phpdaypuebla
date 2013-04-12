@@ -116,3 +116,7 @@ footer {
 .hub {
 	text-align: center;
 }
+
+.span3 {
+    width: 255px;
+}
