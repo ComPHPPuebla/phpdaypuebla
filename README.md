@@ -1,4 +1,4 @@
-phpdaypuebla
-============
+# PHP Day Puebla
 
-Sitio Web del PHP Day Puebla www.phpdaypuebla.com.mx
+Sitio Web del PHP Day Puebla 2013.
+
